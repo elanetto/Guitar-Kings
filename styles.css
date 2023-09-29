@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #930000;
+}
+
+.active {
+    background-color: #930000;
+    color: #FFF;
+}
+
+/* Set the size of the image in top of index */
+.welcome img {
+    width: 450px;
+}
+
+/* Set size of the review images */
+.reviews img {
+    width: 400px;
+}
+
+/* Tried to get the reviews to be set side-by-side. But failed. */
+.review {
+    flex-direction: row;
+}
+
+/* Display the nav-bar as a row */
+nav li {
+    display: inline-block;
+}
+
+/* Set bg colour of the review section */
+.reviews {
+    background-color: #F3F3F3;
+}
+
+/* Set the color and padding of the nav bar */
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* When hovering: A line under will appear */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* The nav-bar is set to the left */
+nav ul {
+    padding: 0px;
+}
+
+/* Set the size of the product cards */
+.product-card img {
+    width: 250px;
+}
