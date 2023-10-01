@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 h1, h2, h3 {
@@ -19,12 +21,8 @@ h1, h2, h3 {
 
 /* Set size of the review images */
 .reviews img {
-    width: 400px;
-}
-
-/* Tried to get the reviews to be set side-by-side. But failed. */
-.review {
-    flex-direction: row;
+    max-width: 380px;
+    min-width: 100px;
 }
 
 /* Display the nav-bar as a row */
@@ -35,6 +33,27 @@ nav li {
 /* Set bg colour of the review section */
 .reviews {
     background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    max-inline-size: 100%;
+}
+
+.review {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.quote {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.quote p {
+    font-style: normal;
 }
 
 /* Set the color and padding of the nav bar */
@@ -54,7 +73,19 @@ nav ul {
     padding: 0px;
 }
 
+.products {
+    display: flex;
+}
+
+.product-card {
+    padding-right: 20px;
+}
+
 /* Set the size of the product cards */
 .product-card img {
     width: 250px;
+}
+
+.welcome {
+    display: flex;
 }
