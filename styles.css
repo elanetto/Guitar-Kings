@@ -105,3 +105,15 @@ footer {
     padding-left: 300px;
     color: #FFF;
 }
+
+.main-product img {
+    max-width: 650px;
+}
+
+.also-bought {
+    padding-top: 50px;
+}
+
+.white-text {
+    color: white;
+}
